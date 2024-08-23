@@ -14,12 +14,25 @@
 	background: #f5c7f7; 
 } */
 
+@font-face {
+    font-family: 'Montserrat'; /* Define a name for the font */
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background-color: #0B0D15;;
+    background-color: #0B0D15;
 
     margin: 0;
     padding: 0;
+
+    /* background-image: url("grid-png-thumb8.png");
+    background-repeat: repeat; 
+    background-size: 500px 500px; 
+    background-attachment: fixed;  */
 }
+
 
 .topbar {
     background-color: #0e111b;
@@ -43,7 +56,8 @@ body {
 
 .topbar_title {
     color: #ffffff;
-    font-family: Arial;
+    font-family: Montserrat;
+    font-weight: light;
     font-size: 17px;
 
     text-align: left;
@@ -60,6 +74,7 @@ body {
 .title {
     font-size: 50px;
     font-family: Arial;
+    font-weight: 200;
     color: white;
 
     margin-top: 110px;

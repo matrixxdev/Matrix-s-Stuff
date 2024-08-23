@@ -1,0 +1,131 @@
+/* .first-color { 
+	background: #27296d; 
+}
+	
+.second-color { 
+	background: #5e63b6; 
+}
+
+.third-color { 
+	background: #a393eb; 
+}
+
+.fourth-color { 
+	background: #f5c7f7; 
+} */
+
+body {
+    background-color: #0B0D15;;
+
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: #0e111b;
+
+    top: 0;
+
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    margin: auto;
+
+    text-align: left;
+    position: fixed;
+    z-index: 6969;
+}
+
+.topbar_title {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+
+    text-align: left;
+    margin-left: 25px;
+}
+
+.lines_menu {
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.title {
+    font-size: 50px;
+    font-family: Arial;
+    color: white;
+
+    margin-top: 110px;
+
+    text-align: center;
+}
+
+.card_container {
+    position: relative;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.card1, .card2, .card3 {
+    height: 125px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #131624;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    align-items: center;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+/* .card1::after, .card2::after, .card3::after, .card1::before .card2::before, .card3::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+    top: 0%;
+    left: 0%;
+    translate: -50%, -50%;
+    z-index: -1;
+    padding: 5px;
+    border: 5px;
+} */
+
+.card1:hover, .card2:hover, .card3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+
+.card_title, .card_content {
+    color: white;
+    font-family: Arial;
+}
+
+.card_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card_content {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

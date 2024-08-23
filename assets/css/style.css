@@ -73,6 +73,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    gap: 10px;
 
     flex-wrap: wrap;
 }
@@ -82,8 +83,8 @@ body {
     width: 250px;
     border-radius: 5px;
     background-color: #131624;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     margin-top: 15px;
     margin-bottom: 10px;
 
